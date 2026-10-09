@@ -1,5 +1,5 @@
 import ProductCard from "../../product/ProductCard";
-import SectionHeading from "../sectionHeading";
+import SectionHeading from "../SectionHeading";
 
 export default function NewArrival({ products, loading }) {
   return (

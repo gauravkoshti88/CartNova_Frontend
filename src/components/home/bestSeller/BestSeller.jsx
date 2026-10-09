@@ -1,6 +1,5 @@
-import { ArrowRight, Trophy } from "lucide-react";
 import ProductCard from "../../product/ProductCard";
-import SectionHeading from "../sectionHeading";
+import SectionHeading from "../SectionHeading";
 
 export default function BestSeller({ products, loading }) {
   return (

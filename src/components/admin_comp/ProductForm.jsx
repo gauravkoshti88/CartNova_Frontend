@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-
 import ProductBasicInfo from "../adminProduct/ProductBasicInfo";
 import { ProductHeader } from "../adminProduct/ProductHeader";
 import AttributeBuilder from "../adminProduct/AttributeBuilder";
@@ -8,7 +7,7 @@ import ProductMedia from "../adminProduct/ProductMedia";
 import InventorySection from "../adminProduct/InventorySection";
 import ShippingSection from "../adminProduct/ShippingSection";
 import OrganizationSection from "../adminProduct/OrganizationSection";
-import SeoSection from "../adminProduct/SEOSection";
+import SEOSection from "../adminProduct/SEOSection";
 import PublishSection from "../adminProduct/PublishSection";
 import WarrantySection from "../adminProduct/WarrantySection";
 import ReturnPolicySection from "../adminProduct/ReturnPolicySection";
@@ -324,7 +323,7 @@ const ProductForm = ({ isEdit = false }) => {
 
         <OrganizationSection />
 
-        <SeoSection />
+        <SEOSection />
 
         <PublishSection />
 

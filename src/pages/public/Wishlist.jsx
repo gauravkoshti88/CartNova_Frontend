@@ -3,8 +3,7 @@ import { Heart, ShoppingBag, Trash2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import toast from "react-hot-toast";
-
-import ProductCard from "../../components/Product/ProductCard";
+import ProductCard from "../../components/Cards";
 import useWishlist from "../../hooks/useWishlist";
 import publicService from "../../services/publicService";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";

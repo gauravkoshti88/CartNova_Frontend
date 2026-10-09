@@ -1,6 +1,6 @@
 import CollectionCard from "./CollectionCard";
 import { collections } from "./collectionData";
-import SectionHeading from "../sectionHeading";
+import SectionHeading from "../SectionHeading";
 
 export default function TopCollections() {
   return (
