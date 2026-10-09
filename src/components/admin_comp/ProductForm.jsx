@@ -20,8 +20,6 @@ import ProductButton from "../Buttons";
 import { useNavigate } from "react-router-dom";
 import VariantTable from "../adminProduct/VariantTable";
 
-import SEOSection from "../adminProduct/SEOSection";
-
 import { useDispatch, useSelector } from "react-redux";
 
 import {
