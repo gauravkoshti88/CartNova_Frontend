@@ -1,18 +1,8 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-import {
-  Eye,
-  EyeOff,
-  User,
-  Mail,
-  Lock,
-  ArrowRight,
-  Phone,
-  ShieldCheck,
-} from "lucide-react";
+import { Eye, EyeOff, User, Mail, Lock, ArrowRight, Phone } from "lucide-react";
 
-import { FaGoogle } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { Input } from "../../components/FormController";
 import { Logo } from "../../components/Logo";
