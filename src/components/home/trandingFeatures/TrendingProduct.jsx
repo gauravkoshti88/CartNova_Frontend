@@ -1,5 +1,5 @@
 import ProductCard from "../../product/ProductCard";
-import SectionHeading from "../sectionHeading";
+import SectionHeading from "../SectionHeading";
 
 export default function TrendingProducts({ products, loading }) {
   return (

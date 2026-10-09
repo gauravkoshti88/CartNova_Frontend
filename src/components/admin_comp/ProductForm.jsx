@@ -7,7 +7,7 @@ import ProductMedia from "../adminProduct/ProductMedia";
 import InventorySection from "../adminProduct/InventorySection";
 import ShippingSection from "../adminProduct/ShippingSection";
 import OrganizationSection from "../adminProduct/OrganizationSection";
-import SEOSection from "../adminProduct/SEOSection";
+
 import PublishSection from "../adminProduct/PublishSection";
 import WarrantySection from "../adminProduct/WarrantySection";
 import ReturnPolicySection from "../adminProduct/ReturnPolicySection";
@@ -19,6 +19,8 @@ import ProductButton from "../Buttons";
 
 import { useNavigate } from "react-router-dom";
 import VariantTable from "../adminProduct/VariantTable";
+
+import SEOSection from "../adminProduct/SEOSection";
 
 import { useDispatch, useSelector } from "react-redux";
 

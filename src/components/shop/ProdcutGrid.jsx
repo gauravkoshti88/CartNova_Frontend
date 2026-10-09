@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import ProductCard from "../../components/Product/ProductCard";
+import ProductCard from "../product/ProductCard";
 import { usePublicProducts } from "../../hooks/usePublicProducts";
 
 export default function ProductGrid({ filters = {} }) {
